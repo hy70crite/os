@@ -20,6 +20,9 @@ This repository contains C++ programs that demonstrate basic multi-threading and
 ### Requirements
 - A C++ compiler (such as `g++`)
 - For multi-threading, you need to link with the `pthread` library.
+- Installing python library (requirements):
+  ```bash
+  pip install -r requirements.txt
 
 ### Compilation
 
@@ -40,3 +43,6 @@ This repository contains C++ programs that demonstrate basic multi-threading and
 2. **Multi-threaded Program**:
    ```bash
    ./print_numbers_multithreaded_timed
+3. **Run the python program for the plot**:
+   ```bash
+   python3 execution_plot_times.py
